@@ -39,17 +39,28 @@ export default function Home() {
       <VStack align={"start"} ml={"2%"} mt={"1%"}>
 
         <HStack justify={"left"} align={"left"}>
-        <Text color={"#5271FF"}  whiteSpace={"none"} fontFamily={"Poppins"} fontSize={"50px"} fontWeight={1000}>
+        <Text color={"#5271FF"}  whiteSpace={"none"} fontFamily={"Poppins"} fontSize={"50px"} fontWeight={900}>
         Verbal
         
           <span style={{fontStyle:'italic', fontWeight:'10'}}>
-            {" "}
+        
             Wave
           </span>
       
       </Text>
 
         </HStack>
+
+        <HStack justify={"left"} align={"left"} mt={"25px"}>
+        <Text color={"#5271FF"}  whiteSpace={"none"} fontFamily={"Poppins"} fontSize={"50px"} fontWeight={300}>
+        Ride the Wave of Conversations Onward
+        
+         
+      
+      </Text>
+
+        </HStack>
+
 
    
 
