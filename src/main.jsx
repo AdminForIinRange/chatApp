@@ -28,10 +28,12 @@ const theme = extendTheme({
       html: {
         height: "100%",
         width: "100%",
+        // overflow: "hidden",
       },
       body: {
         height: "100%",
         width: "100%",
+        
         background: `linear-gradient(0deg, #D0C6FF 0%, #FFFF   100%)`,
 
         backgroundRepeat: "no-repeat",

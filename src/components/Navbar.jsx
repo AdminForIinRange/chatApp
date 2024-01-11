@@ -35,7 +35,10 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
-    <div>  <NavLink to="ChatRoom">
+    <div>  
+      <HStack justify={"end"} > 
+
+      <NavLink to="ChatRoom">
     <Button
       fontSize="sm"
       color={"Black"}
@@ -55,6 +58,10 @@ export default function Navbar() {
     >
       Home
     </Button>
-  </NavLink></div>
+  </NavLink>
+
+      </HStack>
+      
+      </div>
   )
 }
